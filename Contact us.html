@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sustainable Builders</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1f2b;
+            color: #fff;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
+        header {
+            background-color: #1a1d26;
+            color: #fff;
+            text-align: center;
+            padding: 0.3em;
+            position: relative;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+            max-height: 150px; /* Set a maximum height for the logo */
+            margin-right: 1em; /* Add some space to the right of the logo */
+            cursor: pointer;
+        }
+        header h1 {
+            display: inline-block;
+            margin: 0;
+            font-size: 2.5em;
+            line-height: 2.5em;
+            vertical-align: middle;
+            text-decoration: none;
+            color: #d12600; /* Red color for Sustainable Builders */
+            font-weight: 700; /* Bold font for Sustainable Builders */
+            transition: color 0.2s ease-in-out;
+        }
+        header h1:hover {
+            color: #fff; /* Change color on hover */
+        }
+        nav {
+            background-color: #161822;
+            padding: 0.3em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #dc2b04; /* Change color on hover */
+        }
+        section {
+            padding: 3.5em;
+        }
+        h2 {
+            color: #d60909; /* Highlight color for section headings */
+            font-family: 'Arial', sans-serif; /* Different font for h2 */
+        }
+        p {
+            margin-bottom: 2.5em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            margin-bottom: 0.5em;
+            color: #ffcc00;
+        }
+        input, textarea {
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #333;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #161822;
+            color: #fff;
+            text-align: center;
+            padding: 2em;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-details {
+            text-align: left;
+        }
+        .social-links {
+            text-align: right;
+        }
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.5em;
+            transition: color 0.3s ease-in-out;
+        }
+        .social-links a:hover {
+            color: #fc7c5e; /* Change color on hover */
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        .quick-links a:hover {
+            color: #f53307; /* Change color on hover */
+        }
+        .quick-links p {
+            font-weight: bold;
+        }
+        .quick-links ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .quick-links {
+            color: #ff0000;
+            font-weight: bold;
+        }
+        .quick-links a:hover {
+            color: rgb(211, 0, 46);
+        }
+        .copyright {
+            margin-top: 50px;
+            color: #755;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/Logo.png" alt="Sustainable Builders Logo">
+        <h1>Sustainable Builders</h1>
+        <p>"Building Tomorrow, Sustainably Today: Pioneering Eco-friendly Bricks for a Greener Future."</p>
+    </header>
+
+    <nav>
+        <a href="footer.html">Home</a>
+        <a href="The Brick.html">The Bricks</a>
+        <a href="Who we are .html">Who We Are</a>
+        <a href="impact.html">Impact</a>
+        <a href="Contact us.html">Contact Us</a>
+        <a href="Blogs.html">Blogs</a>
+    </nav>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get in touch? Fill out the form below, and we'll get back to you as soon as possible.</p>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <div class="contact-details">
+            <p>Visit Us:</p>
+            <p>123 Green Street, Eco City</p>
+            <p>Email Us: info@sustainablebuilders.com</p>
+            <p>Call Us: +123 456 7890</p>
+        </div>
+    
+        <div class="social-links">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+    
+        <div class="quick-links">
+            <p>Quick Links:</p> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bricks.html">The Bricks</a></li>
+                <li><a href="who_we_are.html">Who We Are</a></li>
+                <li><a href="impact.html">Impact</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+
